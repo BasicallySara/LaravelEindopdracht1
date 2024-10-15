@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\Product; // Zorg ervoor dat je het juiste model importeert
+use App\Models\Product;
 use Illuminate\Database\Seeder;
 
 class ProductsTableSeeder extends Seeder

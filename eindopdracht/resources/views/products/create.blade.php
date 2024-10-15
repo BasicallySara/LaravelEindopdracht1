@@ -65,7 +65,7 @@
                     </div>
 
                     <div>
-                        <label class="block text-lg font-medium text-gray-700">Publish Date</label> <!-- Nieuwe label voor publish_date -->
+                        <label class="block text-lg font-medium text-gray-700">Publish Date</label>
                         <input value="{{ old('publish_date') }}" type="date" name="publish_date"
                             class="@error('publish_date') border-red-500 @enderror w-full px-4 py-2 rounded-lg border focus:outline-none focus:ring-2 focus:ring-gray-300">
                         @error('publish_date')
